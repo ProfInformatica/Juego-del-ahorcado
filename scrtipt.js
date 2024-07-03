@@ -237,7 +237,7 @@ palabras_array.push("DESTINO");
 
      ctx.font = "bold 50px Courier";
      if (errores < 5){
-         ctx.fillText("Muy bien, la palabra es: ", 110, 280);
+        //ctx.fillText("Muy bien, la palabra es: ", 110, 280);
          window.location.href = "JuegoAhorcado.html"; 
 
      } else {
