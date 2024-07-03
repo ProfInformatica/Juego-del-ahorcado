@@ -1,0 +1,35 @@
+body{
+    width: 960px;
+    margin: 0 auto;
+    background-image: url(/imagenes/image.png);
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color: rgba(53, 16, 16, 0.418);
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(53, 16, 16, 0.418);
+    
+}
+#pantalla{
+    border: groove 8px gold;
+    background: lightgreen;   
+}
+#boton{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 3px;
+    border: solid 2px black;
+}
+#boton:hover{ /* Estilo que se activa al pasar el puntero sobre el boton */
+    background-color: lightcoral;
+    font-size: 22px;
+    border: groove 4px red;
+}
