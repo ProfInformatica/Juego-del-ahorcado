@@ -233,7 +233,7 @@ palabras_array.push("DESTINO");
  /* Borramos las teclas y la palabra con sus cajas y mandamos msj segun el caso si se gano o se perdio */
  function gameOver(errores){
      ctx.clearRect(0, 0, canvas.width, canvas.height);
-     ctx.fillStyle = "black";
+     ctx.fillStyle = "rgb(179, 168, 148)";
 
      ctx.font = "bold 50px Courier";
      if (errores < 5){
