@@ -22,7 +22,7 @@
  
  /* Palabras */
 palabras_array.push("DESTINO");
- /*
+
  palabras_array.push("CABALLO");
  palabras_array.push("PERRO");
  palabras_array.push("GATO");
@@ -35,9 +35,14 @@ palabras_array.push("DESTINO");
  palabras_array.push("CHAPULIN");
  palabras_array.push("AVESTRUZ");
  palabras_array.push("OCELOTE");
- palabras_array.push("MUSARAÑA");
+ palabras_array.push("ARAÑA");
  palabras_array.push("AGUILA");
- */
+ palabras_array.push("MESSI");
+ palabras_array.push("CRISTIANO");
+
+ 
+ 
+
          
  /* Objetos */
  function Tecla(x, y, ancho, alto, letra){
@@ -237,11 +242,10 @@ palabras_array.push("DESTINO");
 
      ctx.font = "bold 50px Courier";
      if (errores < 5){
-        //ctx.fillText("Muy bien, la palabra es: ", 110, 280);
-         window.location.href = "JuegoAhorcado.html"; 
-
+        ctx.fillText("Muy bien, la palabra es: ", 110, 280);
+        
      } else {
-       //  ctx.fillText("Lo sentimos, la palabra era: ", 110, 280);
+        ctx.fillText("Lo sentimos, la palabra era: ", 110, 280);
      }
      
      ctx.font = "bold 80px Courier";
